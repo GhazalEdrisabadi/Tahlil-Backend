@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be6fe975-23db-4ec4-a849-d49a039e2c3e" name="Default" comment="Add __init__.py">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="be6fe975-23db-4ec4-a849-d49a039e2c3e" name="Default" comment="Add FileView function to view Files." />
     <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,8 +81,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/account/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+            <state relative-caret-position="443">
+              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,6 +114,7 @@
         <option value="$PROJECT_DIR$/posts/api/urls.py" />
         <option value="$PROJECT_DIR$/posts/api/serializers.py" />
         <option value="$PROJECT_DIR$/posts/api/permissions.py" />
+        <option value="$PROJECT_DIR$/account/views.py" />
       </list>
     </option>
   </component>
@@ -204,7 +206,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562665893236</updated>
-      <workItem from="1562731706370" duration="3219000" />
+      <workItem from="1562731706370" duration="3431000" />
     </task>
     <task id="LOCAL-00001" summary="Add &quot;post_create&quot; function to create posts.">
       <created>1562732249589</created>
@@ -458,11 +460,25 @@
       <option name="project" value="LOCAL" />
       <updated>1562734860164</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Add login_view function.">
+      <created>1562735169681</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1562735169681</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Add FileView function to view Files.">
+      <created>1562735223630</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1562735223630</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3219000" />
+    <option name="totallyTimeSpent" value="3431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -496,8 +512,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add url of post update." />
-    <MESSAGE value="Add url of post delete." />
     <MESSAGE value="Add django Test class." />
     <MESSAGE value="Add PostModelAdmin class to access posts on admin page." />
     <MESSAGE value="Add postmanager function to filter each post." />
@@ -521,7 +535,9 @@
     <MESSAGE value="Add PostListCreate serializer to create table in database for this serializer." />
     <MESSAGE value="Add permissions class to access user." />
     <MESSAGE value="Add __init__.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add __init__.py" />
+    <MESSAGE value="Add login_view function." />
+    <MESSAGE value="Add FileView function to view Files." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add FileView function to view Files." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -674,8 +690,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/account/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        <state relative-caret-position="443">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
